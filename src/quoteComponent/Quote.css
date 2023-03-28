@@ -1,0 +1,94 @@
+.wrapperQuote {
+    max-width: 700px;
+    min-width: 300px;
+    margin: 25px;
+}
+ 
+.wrapperQuote blockquote{
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow:
+        inset 0 2px 0 #5172b5,
+        -5px -4px 25px rgba(0, 0, 0, 0.3);
+}
+
+.wrapperQuote blockquote:after,
+.wrapperQuote blockquote:before  {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+ 
+.wrapperQuote blockquote:after  {
+    border-top-color: #ffffff;
+    border-width: 10px;
+    left: 65%;
+    margin-left: -10px;
+}
+ 
+.wrapperQuote blockquote:before {
+    border-top-color: rgba(0,0,0,0.01);
+    border-width: 11px;
+    left: 65%;
+    margin-left: -11px;
+}
+
+.wrapperQuote blockquote p {
+    font-family: 'Alegreya', serif;
+    font-size: 24px;
+    color: #807d7d;
+    font-weight: 400;
+    line-height: 40px;
+    font-style: italic;
+    text-indent: 100px;
+    position: relative;
+}
+
+/* Quotes */
+.wrapperQuote blockquote p:before{
+    content: '\201C';
+    font-family: serif;
+    font-style: normal;
+    font-weight: 700;
+    position: absolute;
+    font-size: 175px;
+    top: 0px;
+    left: -105px;
+    color: #5172b5;
+    text-shadow: 7px 14px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapperQuote .image {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    right: 0px;
+    bottom: 5px;
+    box-shadow:
+        inset 1px 1px 4px rgba(0,0,0,0.5),
+        0 2px 3px rgba(0,0,0,0.6);
+}
+
+.wrapperQuote .author{
+    margin: 10px;
+    font-family: 'Alegreya SC', serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #305296;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.7);
+}
+
+.footer {
+    margin: 10px;
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+    align-items: center;
+}

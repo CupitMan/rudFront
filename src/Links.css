@@ -1,0 +1,25 @@
+.linksContainer {
+  max-height: 75px;
+  height: 75px;
+  background-color: #5172b5;
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  position: fixed;
+  z-index: 100;
+}
+
+.link {
+  margin: 20px;
+  font-size: 20px;
+  color: #f8f8f8;
+  height: 75px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.myLinks {
+  height: 75px;
+  width: 400px;
+}
