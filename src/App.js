@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     if (data[0] == 0) {
-      axios.get("http://localhost:8000/allphrases").then((response) => {
+      axios.get("http://79.137.202.228/allphrases").then((response) => {
         setData(response.data);
       });
     }

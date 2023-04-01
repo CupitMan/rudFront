@@ -13,10 +13,10 @@ function CreateQuote() {
 
   function btnClickAction() {
     const headers = {
-      "Access-Control-Allow-Origin": "http://127.0.0.1:8000/postdata",
+      "Access-Control-Allow-Origin": "http://79.137.202.228/postdata",
     };
     axios.post(
-      "http://127.0.0.1:8000/postdata",
+      "http://79.137.202.228/postdata",
       { data: inputData },
       { headers: headers }
     );
