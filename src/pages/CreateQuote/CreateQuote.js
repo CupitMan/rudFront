@@ -13,10 +13,10 @@ function CreateQuote() {
 
   function btnClickAction() {
     const headers = {
-      "Access-Control-Allow-Origin": "http://api.cupitman.ru/postdata",
+      "Access-Control-Allow-Origin": "https://api.cupitman.ru/postdata",
     };
     axios.post(
-      "http://api.cupitman.ru/postdata",
+      "https://api.cupitman.ru/postdata",
       { data: inputData },
       { headers: headers }
     );
