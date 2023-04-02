@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     if (data[0] == 0) {
-      axios.get("https://api.cupitman.ru/allphrases").then((response) => {
+      axios.get("https://api.cupitmann.ru/allphrases").then((response) => {
         setData(response.data);
       });
     }
