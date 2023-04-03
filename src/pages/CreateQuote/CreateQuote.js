@@ -27,7 +27,7 @@ function CreateQuote() {
     <div className="container">
       <form className="form">
         <label className="label">СОЗДАТЬ НОВУЮ ЦИТАТУ</label>
-        <textarea className="input" onChange={changeInput}></textarea>
+        <textarea className="input" onChange={changeInput} placeholder="Напиши сюда умную мысль..."></textarea>
         <button onClick={btnClickAction} type="submit" className="submitBtn">
           СОЗДАТЬ
         </button>
