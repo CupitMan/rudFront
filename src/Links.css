@@ -33,3 +33,23 @@
   height: 75px;
   width: 400px;
 }
+
+@media (max-width: 500px) {
+  .linksContainer {
+    height: 40px;
+  }
+
+  .link {
+    font-size: 15px;
+    margin: 10px 20px 10px 20px;
+  }
+
+  .myLinks {
+    height: 50px;
+    width: 400px;
+  }
+
+  .link:hover {
+    font-size: 17px;
+  }
+}

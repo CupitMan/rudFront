@@ -1,12 +1,19 @@
 .input {
+  max-width: 1000px;
   width: 800px;
   height: 350px;
   font-size: 35px;
-  margin: 20px 0px 20px 0px;
   border-radius: 20px;
   padding: 20px;
   font-family: Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border: 5px solid rgb(161, 165, 173);
+}
+
+.createquote {
+  display: flex;
+  justify-content: center;
 }
 
 .input::placeholder {
@@ -62,4 +69,34 @@
 .submitBtn:focus {
   background-color: #233d70;
   color: rgb(250, 250, 250);
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 300px;
+  }
+
+  .input {
+    max-width: 400px;
+    width: 300px;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .submitBtn {
+    height: 40px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #5172b5;
+    outline: none;
+    border: none;
+    color: white;
+  }
+
+  .label {
+    font-size: 23px;
+  }
 }
